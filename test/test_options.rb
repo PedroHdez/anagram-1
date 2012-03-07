@@ -10,6 +10,8 @@ require 'test/unit'
 require 'shoulda'
 require_relative '../lib/anagram/options'
 
+
+#  Linea para ver cambios 
 class TestOptions < Test::Unit::TestCase
   
   context "specifying no dictionary" do
