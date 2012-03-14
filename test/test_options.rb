@@ -25,7 +25,7 @@ class TestOptions < Test::Unit::TestCase
       assert_equal "mydict", opts.dictionary
     end
   end      
-  
+#probamos cambiar el nomrbe del commit  
   context "specifying words and no dictionary" do
     should "return the words" do
       opts = Anagram::Options.new(["word1", "word2"])
