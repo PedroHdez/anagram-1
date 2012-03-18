@@ -40,3 +40,4 @@ class TestOptions < Test::Unit::TestCase
     end
   end      
 end
+# a comment
